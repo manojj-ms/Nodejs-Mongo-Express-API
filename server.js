@@ -25,7 +25,7 @@ const app = express();
 // });
 
 var corsOptions = {
-    origin: "https://clever-joliot-683051.netlify.app"
+    origin: ["https://clever-joliot-683051.netlify.app", "http://localhost:3000"]
 };
 app.use(cors(corsOptions));
 
